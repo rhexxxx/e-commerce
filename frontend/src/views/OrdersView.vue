@@ -49,7 +49,8 @@ export default {
       <p>Jln. cupak Gg. V No.1, Sidakarya, Denpasar Selatan, Denpasar, Bali</p>
       <p>80223</p>
     </div>
-    <div class="items my-5 border border-black border-3 p-5">
+    <h2 class="mt-5">Order - 1</h2>
+    <div class="items border border-black border-3 p-5">
       <h2 class="mb-3">Items</h2>
       <div class="item mt-4 p-4 shadow d-flex align-items-center flex-wrap">
         <img class="border border-3 border-black" src="../assets/img/products/udeng/udeng1.jpeg" alt="">
@@ -61,25 +62,15 @@ export default {
           </div>
         </div>
       </div>
-      <div class="item mt-4 p-4 shadow d-flex align-items-center flex-wrap">
-        <img class="border border-3 border-black" src="../assets/img/products/udeng/udeng2.jpg" alt="">
-        <div class="des ms-5">
-          <h1>Udeng Merah Kerajaan Sidakarya</h1>
-          <p>Jumlah : 1</p>
-          <div class="price border border-black border-3 px-3">
-            Rp.400.000
-          </div>
-        </div>
-      </div> 
       <div class="details my-5">
         <div class="detail border border-black border-3 p-4">
           <h3>Pesan : <span>Jangan Dibanting dan disayang, karena kalau tidak sayang aku bakal galau 3 generasi</span> </h3>
         </div>
         <div class="detail border border-black border-3 p-4 mt-3">
-          <h3>Total Pesanan : 3 Produk</h3>
+          <h3>Total Pesanan : 2 Produk</h3>
         </div>
         <div class="detail border border-black border-3 mt-3 p-4">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between flex-wrap">
             <h3>Metode Pembayaran</h3>
             <span>COD (Cash Or Duel)</span>
           </div>
@@ -88,14 +79,14 @@ export default {
           <h3>Rincian Pembayaran</h3>
           <div class="d-flex justify-content-between mt-5">
             <div>
-              <h5>Subtotal Produk</h5>
+              <h5>Subtotal Produk</h5>  
               <h5>Pengiriman</h5>
               <h4>Total Pembayaran</h4>
             </div>
             <div>
-              <h5>Rp.550.000</h5>
+              <h5>Rp.150.000</h5>
               <h5>Rp.40.000</h5>
-              <h4>Rp.590.000</h4>
+              <h4>Rp.190.000</h4>
             </div>
           </div>
         </div>
@@ -176,5 +167,16 @@ export default {
 .detail h5{
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width:1000px) {
+  .item img{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .des{
+    margin: 2rem 0;
+  }
 }
 </style>
